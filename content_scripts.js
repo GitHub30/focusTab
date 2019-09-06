@@ -1,0 +1,1 @@
+exportFunction(browser.runtime.sendMessage, window, {defineAs:'focusTab'})
