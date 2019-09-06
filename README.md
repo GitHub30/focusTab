@@ -6,6 +6,7 @@ Focus a tab with window.focusTab() function.
 // Focus a tab with title
 focusTab({title: 'Example Domain'})
 document.dispatchEvent(new CustomEvent('focusTab', {'detail': {title: 'Example Domain'}}))
+document.dispatchEvent(new CustomEvent('focusTab', {'detail': JSON.stringify({title: 'Example Domain'})}))
 
 // Focus a tab with url
 focusTab({url: 'http://example.com/'})
