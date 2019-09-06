@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Focus a tab",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Focus a tab with window.focusTab() function",
   "developer": {
     "name": "Tomofumi Inoue",
@@ -15,6 +15,7 @@
       "matches": [
         "<all_urls>"
       ],
+      "run_at": "document_start",
       "js": [
         "content_scripts.js"
       ]
